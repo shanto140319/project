@@ -1,0 +1,72 @@
+.section-padding {
+    text-align: center;
+    margin: 45px 0px;
+}
+.section-padding h2:before {
+    background: #FEDB77;
+    height: 5px;
+    width: 5%;
+    content: "";
+    bottom: 0;
+    left: 50%;
+    position: absolute;
+    padding-left: -22px;
+    bottom: 0;
+    margin-left: -16px;
+}
+
+.section-padding h2:after {
+    bottom: 0;
+    left: 50%;
+    content: "";
+    height: 5px;
+    width: 3%;
+    background: #FF7875;
+    position: absolute;
+    margin-left: -4px;
+}
+
+.section-padding h2 {
+    font-weight: 700;
+    padding-bottom: 20px;
+    position: relative;
+    margin-bottom: 15px;
+}
+.section-padding h2:before {
+    background: #FEDB77;
+    height: 2px;
+    width: 5%;
+    content: "";
+    bottom: 0;
+    left: 50%;
+    position: absolute;
+    padding-left: -22px;
+    bottom: 0;
+    margin-left: -16px;
+}
+.icon {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.icon img {height: 75px;width: auto;margin-bottom: 30px;}
+
+.content h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    color: #565656;
+}
+
+.section-padding h2:after {
+    bottom: 0;
+    left: 50%;
+    content: "";
+    height: 2px;
+    width: 2%;
+    background: #FF7875;
+    position: absolute;
+    margin-left: 2px;
+}
